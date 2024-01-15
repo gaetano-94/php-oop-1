@@ -22,3 +22,6 @@ class Movie
 // Istanziamento di due oggetti 'Movie'
 $movie1 = new Movie("Inception", "Sci-Fi", 2010);
 $movie2 = new Movie("The Shawshank Redemption", "Drama", 1994);
+// Stampare a schermo i valori delle proprietà degli oggetti
+echo $movie1->displayInfo() . "<br>";
+echo $movie2->displayInfo();
