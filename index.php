@@ -13,4 +13,9 @@ class Movie
     $this->genre = $genre;
     $this->releaseYear = $releaseYear;
   }
+  // Metodo all'interno della classe
+  public function displayInfo()
+  {
+    return "Title: {$this->title}, Genre: {$this->genre}, Release Year: {$this->releaseYear}";
+  }
 }
